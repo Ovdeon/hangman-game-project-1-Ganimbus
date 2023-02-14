@@ -15,4 +15,23 @@ https://www.youtube.com/watch?v=leW9ZotUVYo
 - write tests.
 
 ### What was your creative process:
-Write here all you want.
+
+First, my impression of the game is that I determine the word to guess from the words.json list and the user who runs the code will be the one to guess.
+
+As a starting point the user will be welcomed, asked to enter a name. After that, The player is advised to read the rules.
+
+#### Rules:
+- The game consists of guessing a series of alphanumeric characters.
+- The game starts by showing the number of characters, but hiding them.
+- The player will indicate a character and if it is within the series, it will be shown, otherwise the player will lose one of his attempts. 
+- There are only 6 attempts to get all the characters.
+- If the attempts are exhausted before guessing the word, the player loses.
+- The player wins if he/she gets the word right before running out of tries.
+
+A very simple graphical interface will be used within the code to make the game more entertaining. A series of dashes will be displayed whose number is exact to the series to be guessed.
+
+.isalpha() is used so that only alphanumeric values can be inserted.
+
+
+
+
