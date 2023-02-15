@@ -30,8 +30,14 @@ As a starting point the user will be welcomed, asked to enter a name. After that
 
 A very simple graphical interface will be used within the code to make the game more entertaining. A series of dashes will be displayed whose number is exact to the series to be guessed.
 
-.isalpha() is used so that only alphanumeric values can be inserted.
+.isalnum() is used so that only alphanumeric values can be inserted.
 
+Variables will be added to store the chosen characters, and there will also be an option in case the player tries to guess the whole series (this is more effective if the characters form words).
 
-
+Variables:
+- winner : Determines whether the player won or not.
+- hidden_word: It will display the series hidden by hyphens and will display the characters guessed.
+- guessed_chars: List that will store the characters (unit) of the player's choice
+- guessed_series: List that will store the series the player chooses when trying to guess the whole series
+- attempts: tries that the player has to guess the series
 
